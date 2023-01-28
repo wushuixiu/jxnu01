@@ -1,0 +1,102 @@
+/* ----网站入口：hw-entry---- */
+.hw-entry {
+    height: 488px;
+    background-color: pink;
+}
+.hw-entry .entry-hd {
+    height: 40px;
+    background-color: #ca151d;
+}
+.hw-entry .entry-hd li {
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 62px;
+}
+.hw-entry .entry-hd li:first-child {
+    width: 240px;
+    margin-right: 30px;
+    padding-left: 16px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, .7);
+}
+.hw-entry .entry-hd li:last-child {
+    margin-right: 0;
+}
+.hw-entry .entry-hd li a {
+    font-size: 12px;
+    color: #fff;
+}
+.hw-entry .entry-body {
+    position: relative;
+    height: 448px;
+}
+.hw-entry .entry-body .banner img {
+    width: 100%;
+    height: 448px;
+}
+.hw-entry .entry-body .container {
+    position: absolute;
+    top: 0;
+    left: 160px;
+}
+.hw-entry .entry-body .container .category {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 240px;
+    height: 448px;
+    background-color: rgba(0, 0, 0, .7);
+}
+.hw-entry .entry-body .container .category li {
+    height: 38px;
+    margin-top: 27px;
+    padding-left: 16px;
+    line-height: 1;
+}
+.hw-entry .entry-body .category li:first-child {
+    margin-top: 17px;
+}
+.hw-entry .entry-body .category li a {
+    color: #fff;
+}
+.hw-entry .entry-body .category li span {
+    font-size: 12px;
+    color: #7b7975;
+}
+/* ----新物展示模块：hw-new-goods---- */
+.hw-new-goods {
+    height: 190px;
+    padding-top: 10px;
+}
+.hw-new-goods li {
+    float: left;
+    width: 295px;
+    height: 180px;
+    margin-right: 5px;
+    background-color: skyblue;
+}
+.hw-price {
+    height: 270px;
+}
+.hw-price div {
+    float: left;
+    width: 396px;
+    height: 208px;
+    margin-right: 5px;
+    padding-left: 35px;
+    box-sizing: border-box;
+    border: 1px solid #efefef;
+}
+.hw-price div:last-child {
+    margin-right: 0px;
+}
+.hw-price div p {
+    font-size: 12px;
+    margin-top: 13px;
+    margin-bottom: 20px;
+    color: #abaca7;
+}
+.hw-price div span {
+    color: #d11415;
+}
